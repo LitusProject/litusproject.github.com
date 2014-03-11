@@ -38,11 +38,26 @@
 
 <p>Because we spent a great deal of time on this project, we thought it would be nice to release all our code under the AGPLv3 license. That way, you can contribute to it if you have a great idea or you think something's missing. We also wrote a lot of code to use various protocols and to integrate with other applications.</p>
 
-<p>Wrote a nice new feature? Solved a bug? Just shoot us a pull request and we'll review it! However, when contributing some code to the project, please take a look at our <a href="https://github.com/LitusProject/Litus/wiki/Style">coding style</a> first.</p>
+<p>The following files are exempt from the AGPLv3 license:</p>
+
+<ul>
+<li>config/{application,database,lilo}.config.php, due to being configuration rather than code. These files are released under the MIT license.</li>
+<li>public/img/glyphicons-halflings{,-white}.png are part of Bootstrap and thus licensed under the MIT license.</li>
+<li>public/_gollum/img/icon-sprite.png is part of Gollum, licensed as CC-BY-SA v3 or later.</li>
+<li>The images in public/{img/jquery_ui,_logistics/theme/images}are part of jQuery UI and licensed under the MIT License.</li>
+<li>All images containing a reference to VTK are &copy; Vlaamse Technische Kring vzw.</li>
+<li>All images containing a reference to Litus or Student IT are &copy; Student IT vzw.</li>
+<li>All other images are licensed CC-BY-ND v4 or later unless otherwise denoted in a readme or license file in a parent directory of the file.</li>
+<li>All JavaScript and CSS files containing an explicit license header.</li>
+</ul>
+
+<h3>Contributing</h3>
+
+<p>Wrote a nice new feature? Solved a bug? Just shoot us a pull request and we'll review it! However, when contributing some code to the project, please take a look at our <a href="https://github.com/LitusProject/Litus/wiki/Style">Code Style</a> first.<br />
+We expect code to have passed through <a href="https://github.com/fabpot/PHP-CS-Fixer">php-cs-fixer</a> before being committed. You can easily achieve this by using a pre-commit git hook as described <a href="https://github.com/LitusProject/PhpCodeStyle/tree/master/Resources/git-hooks">here</a>.</p>
 
 <h3>Authors</h3>
-
-<p>Built by <a href="https://github.com/nielsavonds" class="user-mention">@nielsavonds</a>, <a href="https://github.com/pmaene" class="user-mention">@pmaene</a> and <a href="https://github.com/krmarien" class="user-mention">@krmarien</a> with all the love in the world. If you have any questions, don't hesitate to contact us.</p>
+<p>Built by <a href="https://github.com/nielsavonds" class="user-mention">@nielsavonds</a>, <a href="https://github.com/koencertyn" class="user-mention">@koencertyn</a>, <a href="https://github.com/bgotink" class="user-mention">@bgotink</a>, <a href="https://github.com/DarioI" class="user-mention">@DarioI</a>, <a href="https://github.com/pmaene" class="user-mention">@pmaene</a>, <a href="https://github.com/krmarien" class="user-mention">@krmarien</a>, <a href="https://github.com/vierbergenlars" class="user-mention">@vierbergenlars</a>, <a href="https://github.com/dwendelen" class="user-mention">@dwendelen</a> with all the love in the world. If you have any questions, don't hesitate to contact us.</p>
       </section>
       <footer>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
